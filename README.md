@@ -39,7 +39,7 @@ Functionality & How to use the app
 <br><br><br>
 Want to search for something new?<br>
 Just change it in the TextInput field that I showed at the beginning and hit `Search` again.<br>
-<br><br><br><br><br>
+<br><br>
 
 APK
 -
