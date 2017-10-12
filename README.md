@@ -40,6 +40,8 @@ Functionality & How to use the app
 Want to search for something new?<br>
 Just change it in the TextInput field that I showed at the beginning and hit `Search` again.
 
+Get the apk from [here](https://raw.githubusercontent.com/KurozeroPB/Image-Search/master/apk/imagesearch.apk)
+
 Questions?
 -
 I'm mostly active on Discord:
