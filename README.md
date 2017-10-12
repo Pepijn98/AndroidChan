@@ -43,9 +43,7 @@ Just change it in the TextInput field that I showed at the beginning and hit `Se
 
 APK
 -
-You can get the apk from the apk folder in this github repo.
-
-or use this [link](https://raw.githubusercontent.com/KurozeroPB/Image-Search/master/apk/imagesearch.apk)
+You can get the apk from the apk folder in this github repo or use this [link](https://raw.githubusercontent.com/KurozeroPB/Image-Search/master/apk/imagesearch.apk)
 
 Questions?
 -
