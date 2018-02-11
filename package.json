@@ -5,15 +5,11 @@
   "private": true,
   "scripts": {
     "test": "eslint .",
-    "start": "tabris serve",
-    "build": "tabris build android"
+    "start": "tabris serve"
   },
   "dependencies": {
     "cordova-plugin-android-permissions": "^1.0.0",
     "cordova-plugin-file": "^4.3.3",
-    "tabris": "^2.3.0"
-  },
-  "devDependencies": {
-    "eslint": "^4.8.0"
+    "tabris": "^2.1.1"
   }
 }
