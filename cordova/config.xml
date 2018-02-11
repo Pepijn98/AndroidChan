@@ -7,7 +7,7 @@
   <preference name="Orientation" value="portrait" />
   <content src="package.json"/>
   <plugin name="cordova-plugin-android-permissions" spec="^1.0.0" />
-  <plugin name="cordova-plugin-file" spec="^6.0.1" />
+  <plugin name="cordova-plugin-file" spec="^4.3.3" />
   <platform name="android">
     <icon src="icon/neko_icon.png" density="mdpi" />
     <icon src="icon/neko_icon.png" density="hdpi" />
