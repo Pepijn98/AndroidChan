@@ -1,16 +1,17 @@
 {
-  "name": "imgsearch",
-  "version": "0.1.0",
+  "name": "androidchan",
+  "version": "0.4.0",
   "main": "src/app.js",
   "private": true,
   "scripts": {
     "test": "eslint .",
-    "start": "tabris serve"
+    "start": "tabris serve",
+    "build": "tabris build android"
   },
   "dependencies": {
     "cordova-plugin-android-permissions": "^1.0.0",
-    "cordova-plugin-file": "^4.3.3",
-    "tabris": "^2.1.1"
+    "cordova-plugin-file": "^6.0.1",
+    "tabris": "^2.3.0"
   },
   "devDependencies": {
     "eslint": "^4.8.0"

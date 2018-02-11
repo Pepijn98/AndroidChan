@@ -2,7 +2,6 @@ const tabris = require('tabris');
 const utils = require('./utils.js');
 
 let image = '';
-let buff = null;
 let imgUrl = '';
 const corPerms = cordova.plugins.permissions;
 const permissions = [
@@ -26,10 +25,10 @@ let textInput = new tabris.TextInput({
   enterKeyType: 'done',
   centerX: 0,
   top: 5,
-  background: '#212121',
-  textColor: '#5C5C5C',
-  fillColor: '#5C5C5C',
-  borderColor: '#5C5C5C'
+  background: '#5C5C5C',
+  textColor: '#868686',
+  fillColor: '#868686',
+  borderColor: '#868686'
 }).appendTo(tabris.ui.contentView);
 
 let searchButton = new tabris.Button({
@@ -88,7 +87,7 @@ let postCreation = new tabris.TextView({
   width: tabris.device.screenWidth,
   alignment: 'center',
   bottom: [nsfwCheckBox, 15],
-  textColor: '#5C5C5C',
+  textColor: '#6479A5',
   text: 'Link to the post: \n',
   enabled: false
 }).appendTo(tabris.ui.contentView);
@@ -349,19 +348,19 @@ utils.checkReqPerms(corPerms, permissions)
     });
     let touchStartTime;
     imageView.on('touchStart', ({
-      timeStamp: tsStart
-    }) => {
+                                  timeStamp: tsStart
+                                }) => {
       touchStartTime = tsStart;
     });
     imageView.on('touchEnd', ({
-      timeStamp: tsEnd
-    }) => {
+                                timeStamp: tsEnd
+                              }) => {
       const diff = tsEnd - touchStartTime;
       if (diff >= 1000) {
         new tabris.ActionSheet({
           actions: [{
-              title: 'Download Image'
-            },
+            title: 'Download Image'
+          },
             {
               title: 'Cancel',
               style: 'cancel'
@@ -369,9 +368,9 @@ utils.checkReqPerms(corPerms, permissions)
           ]
         }).on({
           select: ({
-            target: actionSheet,
-            index
-          }) => {
+                     target: actionSheet,
+                     index
+                   }) => {
             if (actionSheet.actions[index].title === 'Download Image') {
               utils.checkReqPerms(corPerms, permissions)
                 .then(() => {

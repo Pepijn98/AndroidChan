@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.imagesearch" version="0.3.8">
-  <name>Image Search</name>
+<widget id="com.androidchan" version="0.3.8">
+  <name>AndroidChan</name>
   <description>Search for images from konachan.net</description>
-  <author email="pepijn.vanden.broek@gmail.com" href="https://kurozero.xyz">KurozeroPB</author>
+  <author email="support@kurozero.com" href="https://kurozero.xyz">KurozeroPB</author>
   <preference name="EnableDeveloperConsole" value="false" />
   <preference name="Orientation" value="portrait" />
   <content src="package.json"/>
