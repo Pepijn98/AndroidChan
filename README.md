@@ -1,7 +1,6 @@
-[![Discord](https://discordapp.com/api/guilds/229007062032580608/embed.png)](https://discord.gg/5S4m6nw)
-[![dependencies Status](https://david-dm.org/KurozeroPB/Image-Search/status.svg)](https://david-dm.org/KurozeroPB/Image-Search)
+[![Discord](https://discordapp.com/api/guilds/240059867744698368/embed.png)](https://discord.gg/p895czC)
 
-# Image-Search
+# AndroidChan
 Android app to search for images from [konachan.net](http://konachan.net)
 
 To start off, this is my first android app so bugs and errors are no doubt in the code.
@@ -43,10 +42,10 @@ Just change it in the TextInput field that I showed at the beginning and hit `Se
 
 APK
 -
-You can get the apk from the apk folder in this github repo or use this [link](https://raw.githubusercontent.com/KurozeroPB/Image-Search/master/apk/imagesearch.apk)
+You can get the apk from the apk folder in this github repo or use this [link](https://github.com/KurozeroPB/AndroidChan/releases/download/v0.4.0/com.androidchan.apk)
 
 Questions?
 -
 I'm mostly active on Discord:
 
-[![Discord](https://discordapp.com/api/guilds/229007062032580608/embed.png?style=banner3)](https://discord.gg/5S4m6nw)
+[![Discord](https://discordapp.com/api/guilds/240059867744698368/embed.png?style=banner2)](https://discord.gg/p895czC)
