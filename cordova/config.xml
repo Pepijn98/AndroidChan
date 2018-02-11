@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.androidchan" version="0.3.8">
+<widget id="com.androidchan" version="0.4.0">
   <name>AndroidChan</name>
   <description>Search for images from konachan.net</description>
   <author email="support@kurozero.com" href="https://kurozero.xyz">KurozeroPB</author>
@@ -7,7 +7,7 @@
   <preference name="Orientation" value="portrait" />
   <content src="package.json"/>
   <plugin name="cordova-plugin-android-permissions" spec="^1.0.0" />
-  <plugin name="cordova-plugin-file" spec="^4.3.3" />
+  <plugin name="cordova-plugin-file" spec="^6.0.1" />
   <platform name="android">
     <icon src="icon/neko_icon.png" density="mdpi" />
     <icon src="icon/neko_icon.png" density="hdpi" />
